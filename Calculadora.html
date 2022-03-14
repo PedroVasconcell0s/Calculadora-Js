@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1fe0cc7ce1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <table id="Cabeçario">
+            <td>
+                <h1>Calculadora Simples em JS</h1>
+            </td>
+        </table><br><br><br>
+
+    </header>
+    
+    <main>
+        <section>
+            <input type="number" id="number1" placeholder="Insira aqui o primeiro valor"><br><br><br>
+            <select id="operações">
+                <option value="*">Multiplicação x</option>
+                <option value="/">Divisão :</option>
+                <option value="+">Adição +</option>
+                <option value="-">Subtração -</option>
+            </select><br><br><br>
+            <input type="number" id="number2" placeholder="Insira aqui o segundo valor"><br><br><br>
+            <button onclick="calcular()">
+               <b> Pronto! </b> 
+            </button>
+        </section>
+        <div>
+            <h2 id="Resposta"></h2>
+        </div>
+
+    </main>
+    <footer>
+        <table>
+        <h3>Feito por: <a href="https://www.instagram.com/pedro.vasconcell0s/">Pedro Vasconcellos</a></h3>
+    </table>
+        <div>
+            <a href="https://www.instagram.com/pedro.vasconcell0s/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/pedro-navarro-0910621aa/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/PedroVasconcell0s"><i class="fa-brands fa-github"></i></a>
+            <!-- <a href="#"></a> Futuro link pro Portfólio  --> 
+        </div>
+        
+    </footer>
+    
+<script src="./Js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+#Cabeçario{
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(0, 255, 255);
+
+}
+main{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2021/01/GettyImages-1130715037-scaled.jpg);
+}
+input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+section{
+    width: 35%;
+
+}
+button{
+    font-style: italic;
+    background-color: rgb(0, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+}
+button:hover{ /* O houver é a ação de colocar o mouse em cima do texto (botão no caso) maracado */
+    cursor: pointer;
+    background-color: rgb(81, 185, 255)
+
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    position: absolute; /*Pra poder alterar a posição*/
+    bottom: 5px; /*Distancia da parte de baixo da página*/
+    
+}
